@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.local
+out/
+cost-log.md
+decisions-log.md

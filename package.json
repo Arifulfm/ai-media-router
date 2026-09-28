@@ -1,0 +1,24 @@
+{
+  "name": "ai-media-router",
+  "version": "1.0.0",
+  "description": "One CLI for AI image, video and voice generation across OpenRouter, Gemini, ElevenLabs, Cartesia and Higgsfield, with cost estimates, a spend gate, and an optional Jev tier picker.",
+  "scripts": {
+    "seedance": "node --env-file=.env.local index.ts",
+    "ask": "node --env-file=.env.local ask.ts",
+    "image": "node --env-file=.env.local cli.ts image",
+    "video": "node --env-file=.env.local cli.ts video",
+    "voice": "node --env-file=.env.local cli.ts voice"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arifulfm/ai-media-router.git"
+  },
+  "keywords": ["ai", "image-generation", "video-generation", "tts", "openrouter", "cli"],
+  "author": "Mohammad Ariful Islam",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://github.com/Arifulfm/ai-media-router#readme",
+  "dependencies": {
+    "@higgsfield/client": "^0.2.6"
+  }
+}
